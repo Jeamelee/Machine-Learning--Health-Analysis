@@ -9,17 +9,17 @@ This project implements a machine learning system to aid in the early prediction
 The primary goal is to provide a standardized, high-quality diagnostic aid by leveraging predictive analytics to minimize false positives and negatives in clinical decision-making.
 
 # 🚀 Key Features and Functionality
-Dual Classification Models: Utilizes two machine learning algorithms for robust prediction:
+- Dual Classification Models: Utilizes two machine learning algorithms for robust prediction:
 
-Logistic Regression: Trained for general classification and evaluated for performance using an R2 score and Confusion Matrix.
+    - Logistic Regression: Trained for general classification and evaluated for performance using an R2 score and Confusion Matrix.
 
-Decision Tree Classifier: Used for the final user prediction due to its interpretability. The model is also visualized in a .dot file.
+     - Decision Tree Classifier: Used for the final user prediction due to its interpretability. The model is also visualized in a .dot file.
 
-User Interaction: The main script prompts the user with a series of questions (e.g., age, PSA levels, family history, and physical symptoms) to gather necessary input.
+- User Interaction: The main script prompts the user with a series of questions (e.g., age, PSA levels, family history, and physical symptoms) to gather necessary input.
 
-Risk Assessment: Provides an immediate prediction and an estimated probability of prostate cancer based on user responses, along with recommended next steps.
+- Risk Assessment: Provides an immediate prediction and an estimated probability of prostate cancer based on user responses, along with recommended next steps.
 
-Data Preprocessing: Handles data cleaning, filtering of NaN values, and mapping categorical diagnosis labels ('M'/'B') to binary numeric values.
+- Data Preprocessing: Handles data cleaning, filtering of NaN values, and mapping categorical diagnosis labels ('M'/'B') to binary numeric values.
 
 💻 Installation and Setup
 Prerequisites
