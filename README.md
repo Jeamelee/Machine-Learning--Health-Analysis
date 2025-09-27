@@ -3,12 +3,12 @@
 Health Analysis: Prostate Cancer Detection Using Machine Learning
 
 
-"Overview" 
+# Overview
 This project implements a machine learning system to aid in the early prediction and diagnostic assistance of prostate cancer. Developed as a solution to address the high incidence rates, particularly in regions like the Caribbean and Jamaica, the system uses clinical and physical features to assess a patient's susceptibility.
 
 The primary goal is to provide a standardized, high-quality diagnostic aid by leveraging predictive analytics to minimize false positives and negatives in clinical decision-making.
 
-🚀 Key Features and Functionality
+# 🚀 Key Features and Functionality
 Dual Classification Models: Utilizes two machine learning algorithms for robust prediction:
 
 Logistic Regression: Trained for general classification and evaluated for performance using an R2 score and Confusion Matrix.
